@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../MANARA/Style/main.css">
+    <link rel="stylesheet" href="../MANARA/Style/contato.css">
+    <link rel="stylesheet" href="../MANARA/Style/responsive-main.css">
+    <link rel="stylesheet" href="../MANARA/Style/responsive-contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../MANARA/Img/short-logo.jpeg">
+    <title>MANARA- Contato</title>
+</head>
+<body>
+    <div class="modal-header">
+        <div class="modal-header-content">
+       <div class="header-link">
+         <h1 class="btnClose">X</h1>
+         <ul>
+           <li class="modal-link">
+             <a href="../MANARA/index.html">HOME</a>
+           </li>
+           <li class="modal-link">
+            <a href="../MANARA/galeria.html">GALERIA</a>
+          </li>
+          <li class="modal-link">
+            <a href="../MANARA/biografia.html">BIOGRAFIA</a>
+          </li>
+          <li class="modal-link">
+            <a href="../MANARA/contato.html" class="select">CONTATO</a>
+          </li>
+         </ul>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+        <header>
+            <img src="../MANARA/Img/short-logo.jpeg" width="60px" height="50px">
+            <div class="menu-section">
+                <div class="menu-toogle">
+                  <div class="one"></div>
+                    <div class="two"></div>
+                      <div class="three">
+                      </div>
+                    </div>
+                  </div>
+              <div class="menu">
+            <a href="../MANARA/index.html" class="first-header-link">HOME</a>
+            <a href="../MANARA/galeria.html">GALERIA</a>
+            <a href="../MANARA/biografia.html" >BIOGRAFIA</a>
+            <a href="../MANARA/contato.html" class="last-header-link" id="select">CONTATO</a>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="form-pedido">
+            <h1>Faça o seu pedido</h1>
+            <h5>Preencha o formulário abaixo:</h5>
+            <form action="" method="POST">
+                <h4>Nome:</h4>
+                <input type="text" name="name" class="name-cliente">
+                <div class="field">
+                    <div class="field-group">
+                <h4>Endereço:</h4>
+                <input type="text" name="name" class="endereco">
+                    </div>
+                    <div class="field-group">
+                <h4 class="num">Número/complemento:</h4>
+                <input type="text" name="name" class="num-complemento">
+                    </div>
+                </div>
+                
+                <div class="field">
+                    <div class="field-group">
+                <h4>Estado:</h4>
+                <select name="estado" required>
+                    <option value=""> Selecione o estado</option>
+                    </select>
+                    </div>
+                    <div class="field-group">
+                <h4 class="num">Cidade:</h4>
+                <select name="cidade" class="cidade" disabled required>
+                    <option value=""> Selecione a cidade</option>
+                    </select>
+                <input type="hidden" name="state">
+                    </div>
+                </div>
+                    <div class="field">
+                        <div class="field-group">
+                    <h4>E-mail:</h4>
+                    <input type="email" name="E-mail" class="email">
+                        </div>
+                        </div>
+
+                    <div class="field">
+                        <div class="field-group">
+                      <h4 class="foto">Foto:</h4>
+                    <label for="my-file" >Selecionar um arquivo</label>
+                    <input type="file" name="file" class="my-file" id="my-file" multiple>
+                    <span id='file-name'></span>
+                        </div>
+                    </div>
+                            
+                    <div class="field">
+                         <div class="field-group">
+                        <h4 class="descreva">Descreva o que deseja no produto:</h4>
+                        <textarea class="text-area"></textarea>
+                         </div>
+                    </div>
+
+                    <input type="submit" name="enviar" class="btnEnviar" >
+                    <input type="reset" name="limpar" class="btnLimpar">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape">
+          <h5><span>MANARA© </span>| Todos os direitos reservados</h5>
+          <h5 class="text-social-media">Nos siga em nossas redes sociais</h5>
+          <a href="https://www.facebook.com/art.manara" class="facebook" target="_blank"><img src="../MANARA/Img/Icon-4.png" alt="" width="30px" height="36px"></a>
+          <a href="https://instagram.com/artmanara?igshid=cmkongzi9y7b" class="instagram" target="_blank"><img  src="../MANARA/Img/Icon-5.png" alt="" width="60px" height="60px"></a>
+         </div>   
+      </footer> 
+    <script src="../MANARA/Js/contato.js"></script>
+    <script type="text/javascript" src="../MANARA/Js/modal-header.js"></script>
+</body>
+</html>

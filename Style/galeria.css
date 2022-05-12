@@ -1,0 +1,662 @@
+main{
+    background-color: white;
+}
+
+main .text-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+
+    background-color: black;
+}
+
+main .text-options h1{
+    color: white;
+
+    font-size: 40px;
+
+  margin: 70px auto 10px auto;
+    
+    text-align: center;
+}
+
+main .text-options h2{
+     text-align: center;
+
+     color: rgb(31,203,105);
+
+     margin: 5px auto;
+}
+
+main section{
+    background-color: black;
+
+}
+
+main .options{
+    background-color: black;
+
+    width: 90%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
+    grid-gap: 100px;
+
+    align-items: center;
+
+    margin: auto;
+
+    padding-bottom: 50px;
+}
+
+.options li {
+    list-style: none;
+
+    background-color: rgb(32, 32, 32);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 80px;
+
+    padding: 70px 180px;
+    
+    justify-content: space-between;
+    text-align: center;
+    
+    cursor: pointer;
+
+    border: solid 6px;
+    border-top-color: rgb(31,203,105) ;
+    
+    margin: 100px 7vw 10px 7vw;
+
+    
+    }
+
+    main .options li img{
+        margin-top:-34px ;
+        border-radius: 1000px;
+
+        transition: all linear 400ms;
+    }
+
+    main .options li img:hover{
+        filter: opacity(50%);
+    }
+    
+    main .options li h4{
+       margin-top: -50px;
+       margin-bottom: 50px;
+
+       padding-bottom: 10px;
+
+       border-bottom-color: rgb(255, 255, 255);
+       border-bottom: solid 1px ;
+
+       font-size: 35px;
+    }
+
+    main .options li h5{
+      width: 240px;
+
+      
+
+      margin-bottom: 50px;
+    }
+
+    main .options li a{
+        text-decoration: none;
+
+        color: white;
+        background-color: rgb(31,203,105);
+
+        padding: 10px 20px 10px 20px;
+
+        border-radius: 8px;
+
+        font-family: Raleway, sans-serif;
+    }
+
+    main .options li .Pc{
+        margin-bottom: 50px;
+    }
+
+    main .options li .Da{
+        margin-bottom: 5px;
+    }
+
+    main .options li .Btn-da{
+        margin-bottom: 10px;
+    }
+
+    main .options li .Btn-pc{
+        margin-bottom: 30px;
+        margin-top: -20px;
+    }
+
+    main .options li a:hover{
+        background-color: rgb(60, 255, 145);
+    }
+
+    main .options li a:target{
+       transition: 400ms;
+    }
+
+    main .options li .processo{
+       padding: 5px 87px 5px 88px;
+    }
+
+    main .options li .id-2{
+        margin: -33px 0px 10px 0px;
+ 
+        color: black;
+
+        border-radius: 8px;
+     }
+    
+    main .options li .caricatura-text{
+        margin-top: -20px;
+ 
+        padding: 5px 135px 5px 135px;       
+     }
+
+    .options li span:hover{
+        flex: 1;
+        margin-top: 12px;
+    
+        color:black;
+        display: flex;
+        align-items: center;
+        background-color:rgb(31, 203, 105);
+        transition: 200ms;    
+     }
+
+
+
+
+
+
+
+
+
+     main .galeria-amazonia{
+         background-color: white;
+     }
+
+     main .galeria-amazonia h3{
+         color: rgb(31, 203, 105);
+         
+
+         font-size: 37px;
+
+         margin: 30px 50vw 30px 15vw;
+
+        border-bottom:rgb(31,203,105) solid 5px;
+     }
+
+     main .row{
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 16px;
+
+        margin-left: 15vw;
+        margin-right: 15vw;
+     }
+
+     main .card-image{
+        margin: auto;
+     }
+
+     main .image_select{
+        width: 275px;
+        height: 200px;
+        cursor: pointer;
+       }
+   
+       main .image_select:hover{
+           width: 305px;
+           height: 230px;
+           transition: 200ms;
+       }
+
+       .modal{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7);
+     
+        position: fixed;
+        visibility: hidden;
+        z-index: 1;
+    }
+
+    .modal-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+    }
+
+     .modal #modal-img{
+        width: 62vw;
+        height: 70vh;
+    }
+
+    .modal_active{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .modal_active #image_select{
+        transform: scale(1);
+    }
+
+    #close{
+        color: white;
+        font-family: Raleway, sans-serif;
+        position: absolute;
+
+        top:3vh;
+        right: 5vw;
+
+        padding: 10px 10px 10px 10px;
+
+        font-size: 20px;
+
+        cursor: pointer;
+    }
+
+    #left{
+       color: white;
+       font-family: Raleway, sans-serif;
+       position: absolute;
+       
+       left: 9vw;
+       top: 32vh;
+
+       font-size: 50px;
+
+       cursor: pointer;
+
+       padding: 100px 0px 100px 0px ;
+   }
+
+   #right{
+       color: white;
+       font-family: Raleway, sans-serif;
+       position: absolute;
+
+       right: 9vw;
+       top: 32vh;
+
+       font-size: 50px;
+
+       padding: 100px 0px 100px 0px ;
+
+       cursor: pointer;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     main .galeria-caricatura{
+        background-color: white;
+    }
+
+    main .galeria-caricatura h3{
+        color: rgb(31, 203, 105);
+        
+
+        font-size: 37px;
+
+        margin: 30px 50vw 30px 15vw;
+
+       border-bottom:rgb(31,203,105) solid 5px;
+    }
+
+    main .row-1{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 16px;
+
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    main .card-image-1{
+        margin: auto;
+     }
+
+     main .image_select-1{
+     width: 275px;
+     height: 215px;
+     cursor: pointer;
+    }
+
+    main .image_select-1:hover{
+        width: 320px;
+        height: 270px;
+        transition: 200ms;
+    }
+
+    .modal-1{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7);
+     
+        position: fixed;
+        visibility: hidden;
+        z-index: 1;
+    }
+
+    .modal-content-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+    }
+
+    .modal-1 #modal-img-1{
+        width: 58vw;
+        height: 85vh;
+    }
+
+    .modal-1_active{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .modal-1_active #image_select-1{
+        transform: scale(1);
+    }
+
+    #close-1{
+        color: white;
+        font-family: Raleway, sans-serif;
+        position: absolute;
+
+        top:3vh;
+        right: 5vw;
+
+        padding: 10px 10px 10px 10px;
+
+        font-size: 20px;
+
+        cursor: pointer;
+    }
+
+    #left-1{
+       color: white;
+       font-family: Raleway, sans-serif;
+       position: absolute;
+       
+       left: 13vw;
+       top: 32vh;
+
+       font-size: 50px;
+
+       cursor: pointer;
+
+       padding: 100px 0px 100px 0px ;
+   }
+
+   #right-1{
+       color: white;
+       font-family: Raleway, sans-serif;
+       position: absolute;
+
+       right: 13vw;
+       top: 32vh;
+
+       font-size: 50px;
+
+       padding: 100px 0px 100px 0px ;
+
+       cursor: pointer;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+    main .galeria-digital-arte{
+        background-color: white;
+    }
+
+    main .galeria-digital-arte h3{
+        color: rgb(31, 203, 105);
+        
+
+        font-size: 37px;
+
+        margin: 30px 50vw 30px 15vw;
+
+       border-bottom:rgb(31,203,105) solid 5px;
+    }
+
+    main .row-2{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 16px;
+
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    main .card-image-2{
+        margin: auto;
+     }
+
+     main .image_select-2{
+     width: 275px;
+     height: 200px;
+     cursor: pointer;
+    }
+
+    main .image_select-2:hover{
+        width: 305px;
+        height: 230px;
+        transition: 200ms;
+    }
+
+    .modal-2{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7);
+     
+        position: fixed;
+        visibility: hidden;
+        z-index: 1;
+    }
+
+    .modal-content-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+    }
+
+    .modal-2 #modal-img-2{
+        width: 58vw;
+        height: 85vh;
+    }
+
+    .modal-2_active{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .modal-2_active #image_select-2{
+        transform: scale(1);
+    }
+
+   #close-2{
+    color: white;
+    font-family: Raleway, sans-serif;
+    position: absolute;
+
+    top:3vh;
+    right: 5vw;
+
+    padding: 10px 10px 10px 10px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+#left-2{
+   color: white;
+   font-family: Raleway, sans-serif;
+   position: absolute;
+   
+   left: 13vw;
+   top: 32vh;
+
+   font-size: 50px;
+
+   cursor: pointer;
+
+   padding: 100px 0px 100px 0px ;
+}
+
+#right-2{
+   color: white;
+   font-family: Raleway, sans-serif;
+   position: absolute;
+
+   right: 13vw;
+   top: 32vh;
+
+   font-size: 50px;
+
+   padding: 100px 0px 100px 0px ;
+
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main .galeria-processo{
+    background-color: white;
+}
+
+main .galeria-processo h3{
+    color: rgb(31, 203, 105);
+    
+
+    font-size: 37px;
+
+    margin: 30px 50vw 30px 15vw;
+
+   border-bottom:rgb(31,203,105) solid 5px;
+}
+
+    main .row-3{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 16px;
+
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    main .card-image-3{
+        margin: auto;
+     }
+
+     main .image_select-3{
+     width: 300px;
+     height: 240px;
+     cursor: pointer;
+    }
+
+
+    main .image_select-3:hover{
+        width: 320px;
+        height: 230px;
+        transition: 200ms;
+    }
+
+    main .image_select-3{
+        width: 275px;
+        height: 200px;
+        cursor: pointer;
+       }
+
+    .modal-3{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.7);
+     
+        position: fixed;
+        visibility: hidden;
+        z-index: 1;
+    }
+
+    .modal-content-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+    }
+
+    .modal-3 #modal-img-3{
+        width: 58vw;
+        height: 85vh;
+    }
+
+    .modal-3_active{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .modal-3_active #image_select-3{
+        transform: scale(1);
+    }
+
+    .row-3 .video-select{
+        width: 270px;
+        height: 200px;
+    }

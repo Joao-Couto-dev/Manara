@@ -1,0 +1,22 @@
+@media(max-width: 835px){
+    form{
+        display: block;
+    }
+
+    .field{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .form-pedido input[type=email], main .form-pedido input[type=text],
+    main .form-pedido .text-area{
+        width: 90vw;
+        margin-left: auto;
+    }
+
+    main .form-pedido .num-complemento,
+    main .form-pedido .num,
+    main .form-pedido .cidade{
+        margin-left: 0px;
+    }
+}

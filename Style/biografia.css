@@ -1,0 +1,78 @@
+main .video{
+    background-color: black;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    padding-bottom: 20px;
+}
+
+main .video h3{
+    color: rgb(31, 203 ,105);
+
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+
+    margin: 60px auto 15px auto;
+}
+
+main .video h5{
+    font-size: 20px;
+
+    margin: 20px auto;
+}
+
+main .video h4{
+    margin: 30px auto;
+}
+
+main .video-2{
+    background-color: black;
+}
+
+main .video-2 .v2{
+    margin: 35px auto 0px 30px;
+
+    border: white 1px solid;
+}
+
+main .bio-text{
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+main .bio-text img{
+    width: 300px;
+    height: 300px;
+
+    margin: 30px auto;
+
+    text-align: center;
+
+    border-radius: 25px;
+}
+
+main .bio-text h3{
+    display: flex;
+
+    color: rgb(31, 203 ,105);
+    font-size: 30px;
+
+    margin: 5px auto;
+}
+
+main .bio-text h4{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+    display: flex;
+
+    text-align: center;
+}

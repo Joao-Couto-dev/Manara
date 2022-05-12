@@ -1,0 +1,195 @@
+main .form-pedido{
+    background-color: black;
+    
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 50px;
+}
+
+main .form-pedido h1{
+    display: flex;
+    align-items: center;
+
+    color: rgb(31, 203,105);
+    font-size: 43px;
+
+    margin: 40px auto 10px auto;
+}
+
+main .form-pedido h5{
+    display: flex;
+    align-items: center;
+
+    font-size: 20px;
+
+    margin: 25px auto;
+}
+
+main .form-pedido form{
+    margin: 40px auto 10px auto;
+}
+
+
+main .form-pedido h4{
+    font-weight: lighter;
+}
+
+main .form-pedido input[type=text],
+main .form-pedido input[type=email],
+main .form-pedido select{
+    background-color: transparent;
+    color: rgb(31, 203,105);
+
+    border-bottom-color: white;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    border-radius: 5px;
+    margin-bottom: 40px;
+
+
+    
+}
+
+main .form-pedido .name-client,
+main .form-pedido .email,
+main .form-pedido .my-file{
+    width: 800px;
+    height: 30px;
+    
+}
+
+
+main .form-pedido input[type=text]:focus,
+main .form-pedido input[type=email]:focus,
+main .form-pedido select:focus{
+    border-bottom-color: rgb(31, 203,105);
+    
+    color: rgb(31, 203,105);
+    outline: none;
+}
+
+main .form-pedido input[type=text]:hover,
+main .form-pedido input[type=email]:hover{
+    border-color: rgb(31, 203,105);
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+}
+
+main .form-pedido input:-webkit-autofill{
+    -webkit-text-fill-color: rgb(31, 203,105);
+
+}
+
+main .form-pedido .name-cliente{
+    width: 800px;
+    height: 30px;
+}
+
+main .form-pedido .endereco,
+main .form-pedido .num-complemento{
+    width: 380px;
+    height: 30px;
+}
+
+main .form-pedido .num-complemento,
+main .form-pedido .num,
+main .form-pedido .cidade{
+    margin-left: 38px;
+}
+
+
+main .form-pedido .field{
+    display: flex;
+}
+
+main .form-pedido select{
+    width: 385px;
+    height: 30px;
+}
+
+main .form-pedido option{
+    background-color: black;
+}
+
+main .form-pedido .foto{
+    margin-bottom: 20px;
+}
+
+main .form-pedido label{
+    background-color: rgb(31, 203, 105);
+    color: white; 
+
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+
+    padding: 15px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+main .form-pedido .my-file{
+    display: none;
+}
+
+
+
+main .form-pedido span{
+    color: white;
+    font-family: Raleway, sans-serif;
+}
+
+main .form-pedido .descreva{
+    margin-top: 30px;
+}
+
+main .form-pedido .text-area{
+    background-color: transparent;
+
+    color: rgb(31, 203,105);
+
+    resize: none;
+
+    width: 800px;
+    height: 100px;
+
+    border-radius: 8px;
+
+    margin-top: 20px;
+}
+
+main .form-pedido textarea:focus{
+    border: 3px solid;
+    border-color:  rgb(31, 203, 105);
+
+    outline: none;
+}
+
+main .form-pedido .btnEnviar,
+main .form-pedido .btnLimpar{
+    background-image: linear-gradient( 180deg, rgb(31, 203,105), rgb(64,224,208));
+    color: white; 
+
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+
+    margin-right: 15px;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    margin-bottom: 100px;
+
+    cursor: pointer;
+}
+
+main .form-pedido .btnLimpar:hover,
+main .form-pedido .btnEnviar:hover{
+    background-image: linear-gradient( 180deg, rgb(45, 255, 136), rgb(79, 255, 237));
+    
+}

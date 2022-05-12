@@ -1,0 +1,137 @@
+
+@media(max-width: 890px){
+    main .li-id{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    li{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media(max-width: 1280px){
+    main .originalidade li{
+        margin-left: 1vw;
+    }
+
+}
+
+@media(max-width: 1124px){
+        video{
+            width:450px; 
+            height: 300px;
+        }
+
+}
+
+
+@media(max-width: 1132px){
+    main .presents .main-1{
+        position: absolute;
+        visibility: hidden;
+        z-index: 1;
+        width: 1px;
+        height: 1px;
+    }
+
+    main .presents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     main .presents h2,
+    main .presents h3,
+    main .presents a{
+        margin: 10px auto 10px auto;
+    
+
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 930px){
+       main .originalidade .h2{
+           width: 60%;
+       }
+
+       .main-video-content h3{
+           font-size: 16px;
+           margin-left: auto;
+           margin-right: auto;
+       }
+}
+
+@media(max-width: 1000px){
+    .main-video-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-video-content video{
+        margin: auto;
+        
+    }
+
+    main .main-video-content h3{
+        margin: 50px auto 50px auto;
+        box-sizing: content-box;
+
+        width: 90vw;
+    }
+}
+
+@media(max-width:469px){
+    video{
+        width:400px; 
+        height: 250px;
+    }
+}
+
+@media(max-width:401px){
+    video{
+        width:380px; 
+        height: 230px;
+    }
+
+    main .originalidade li{
+       padding: 0px;
+
+       width: 80vw;
+    }
+}
+
+@media(max-width:381px){
+    video{
+        width:360px; 
+        height: 210px;
+    }
+}
+
+@media(max-width:361px){
+    video{
+        width:340px; 
+        height: 190px;
+    }
+}
+
+@media(max-width:341px){
+    video{
+        width:320px; 
+        height: 170px;
+    }
+}
+
+@media(max-width:321px){
+    video{
+        width:300px; 
+        height: 160px;
+    }
+}
+
+

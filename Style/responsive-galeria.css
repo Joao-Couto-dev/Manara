@@ -1,0 +1,66 @@
+@media(max-width: 1072px){
+    .options li{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media(max-width: 620px){
+    .modal #modal-img,
+    .modal-1 #modal-img-1,
+    .modal-2 #modal-img-2,
+    .modal-3 #modal-img-3{
+        height: 35vh;
+    }
+}
+
+@media(max-width: 493px){
+    .options{
+        justify-content: center;
+    }
+    
+    .options li{
+        padding: 90px;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+
+@media(max-width: 426px){
+    main .image_select,
+    main .image_select-1,
+    main .image_select-2,
+    main .image_select-3{
+        width: 215px;
+        height: 150px;
+        margin-left: 4vw;
+       }
+
+       main .image_select:hover,
+       main .image_select-1:hover,
+       main .image_select-2:hover,
+       main .image_select-3:hover{
+           width: 215px;
+           height: 150px;
+          }
+
+    video{
+        display: none;
+    }
+   
+    }
+
+    @media(max-width: 375px){
+         main .card-image,
+         main .card-image-1,
+         main .card-image-2,
+         main .card-image-3{
+            margin: 0px;
+        }
+
+        .options li{
+            margin-left: 24vw;
+           
+        }
+    }

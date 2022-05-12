@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: rgb(133, 133, 133);
+}
+
+header,
+main,
+footer{
+    max-width: 1440px;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+color: white;
+box-sizing: border-box;
+font-family: Raleway, sans-serif;
+}
+
+.header{
+    margin: 0px auto 0px auto;
+}
+
+.header header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.header header img{
+    margin-top: 5px;
+    margin-left: 12px;
+
+}
+
+.header header .menu{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 38px;
+}
+
+.header header a{
+    text-decoration: none;
+
+    font-family: Raleway, sans-serif;
+    color: white;
+
+    margin: 20px 20px;
+    margin-bottom: 0px;
+    
+}
+
+.header header a:hover{
+      transition: 200ms;
+      color:rgb(31, 203,105);
+
+      border-top-color:white;
+      border-bottom-color: white;
+      border-left: black;
+      border-right: black;
+      border-style: solid;
+      border: 1px 0px 1px 0px;   
+}
+
+.header header #select{
+    color: rgb(31, 203,105);
+}
+
+
+footer .rodape{
+    display: flex;
+    align-items: center;
+
+    background-color: black;
+
+    margin-top: 0px white;
+
+    border-style: 2px solid;
+    border: 1px solid;
+    border-top-color: white;
+
+    height: 80px;
+}
+
+footer .rodape h5{
+   color: white;
+   
+   margin-left: 12vw;
+   
+}
+
+
+footer .rodape span{
+    color: rgb(31, 203,105);
+
+    height: 30px;
+
+}
+
+footer .rodape .text-social-media{
+     color: white;
+     margin-left: 40vh;
+    
+}
+
+footer .rodape .facebook{
+     margin-top: 16px;
+     margin-left: 40px; 
+
+     cursor: pointer;
+
+}
+
+footer .rodape .instagram{
+   margin-top: 20px;
+   margin-left: 0.1vw;
+
+   cursor: pointer;
+}
+
+.modal-header{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.849);
+   
+    position: fixed;
+    visibility: hidden;
+    z-index: 10;
+}
+
+.modal-header ul{
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.modal-header li a{
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+}
+
+.modal-header li .select{
+    color: rgb(31, 203,105);
+}
+
+.modal-header h1{
+    text-align: right;
+
+    margin: 15px 7vw 0px 0px;
+
+    background-color: black;
+
+    cursor: pointer;
+}
+
+.modal-header_active{
+    visibility: visible;
+    opacity: 1;
+}
